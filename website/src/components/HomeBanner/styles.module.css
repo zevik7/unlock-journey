@@ -18,7 +18,7 @@
 }
 
 .button {
-  background-color: #8e8cc3;
+  background-color: var(--ifm-color-primary);
   color: var(--ifm-heading-color);
 }
 

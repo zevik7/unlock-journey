@@ -25,7 +25,7 @@ export const HomepageHeader = () => {
         <div className={styles.buttonWrapper}>
           <Link
             className={clsx('button button--lg', styles.button)}
-            to="/journey/introduction"
+            to="/journey/cli"
           >
             Start
           </Link>

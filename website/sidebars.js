@@ -4,10 +4,17 @@
 const sidebars = {
   journeys: [
     {
-      type: 'doc',
-      id: 'introduction',
-      label: 'Introduction',
-    },
+      type: 'category',
+      label: 'Command Line Interface',
+      link: {
+        type: 'doc',
+        id: 'cli/index',
+      },
+      items: [
+        'cli/terminal',
+        'cli/git'
+      ],
+    }
   ],
 };
 

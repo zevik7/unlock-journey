@@ -4,9 +4,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Unblock Journey',
+  title: 'Unlock Journey',
   tagline: '',
-  url: 'https://quanpham.io/unblock',
+  url: 'https://Unlock.quanpham.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,7 +24,7 @@ const config = {
           path: '../journeys',
           routeBasePath: '/journey',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/mikunpham/unblock-journey/website/',
+          editUrl: 'https://github.com/mikunpham/Unlock-journey/website/',
           showLastUpdateTime: true,
         },
         theme: {
@@ -37,20 +37,16 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Unblock Journey',
-        logo: {
-          alt: 'Unblock website logo',
-          src: 'img/logo.svg',
-        },
+        title: 'Unlock Journey',
         items: [
           {
             type: 'doc',
-            docId: 'introduction',
+            docId: 'cli/index',
             label: 'Start',
             position: 'left',
           },
           {
-            href: 'https://github.com/mikunpham/unblock-journey',
+            href: 'https://github.com/mikunpham/Unlock-journey',
             label: 'GitHub',
             position: 'right',
           },
